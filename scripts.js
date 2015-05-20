@@ -1,5 +1,4 @@
 function getXHR(url) {
-	console.log(url);
 	return new Promise(function(resolve, reject) {
 		var req = new XMLHttpRequest();
 		req.open('GET', url);
